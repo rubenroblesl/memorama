@@ -1,3 +1,10 @@
+# Ruben Adrian Robles Leal
+# A00828606
+# Reflexion: Este proyect me ayudó mucho a refrescar conocimiento que tuve alguna vez en python en semestres anteriores, y sobretodo a entender el funcionamiento de este programa y de la librería de free games. Estoy seguro que será algo que me ayudará mucho en un futuro a implementar juegos en python y a hacer programas de mucho mejor calidad dentro de python para ser un mejor programador y un mejor ITC a lo largo de mi carrera. Siento que esta semana tec me ha ayudado mucho, sobretodo ahorita que estamos justamente viendo una materia relacionada a videojuegos a entender como las funciones se repiten como fotogramas ante cada acción del usuario, así como conocer cómo se reciben inputs y como se leen dichos inputs.
+# Link github: https://github.com/rubenroblesl/memorama
+# Link Video Reflexion: https://drive.google.com/file/d/1pv5fKVJUxU5Q99CzhNTtsgXtLVBi3S3S/view?usp=sharing
+
+
 from random import *
 from turtle import *
 from freegames import path
@@ -10,6 +17,17 @@ state = {'mark': None}
 hide = [True] * 64
 taps = 0
 
+def square(x, y):
+    "Draw white square with black outline at (x, y)."
+    up()
+    goto(x, y)
+    down()
+    color('black', 'white')
+    begin_fill()
+    for count in range(4):
+        forward(50)
+        left(90)
+    end_fill()
 
 def index(x, y):
     "Convert (x, y) coordinates to tiles index."
@@ -67,7 +85,7 @@ def draw():
             # calcula esquina inf. izq para dibujar carta
             x, y = xy(count)
             # dibuja un square en x,y en esq inf izq
-            
+            square(x, y)
             # dibuja valor de la casilla
             contador = contador + 1
 
@@ -104,7 +122,7 @@ def draw():
     ontimer(draw, 100)
     
 
-# shuffle(tiles)
+shuffle(tiles) # para hacer pruebas se puede comentar esta linea!!
 setup(420, 420, 370, 0)
 addshape(car)
 hideturtle()
