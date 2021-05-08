@@ -1,5 +1,6 @@
 # Ruben Adrian Robles Leal
 # A00828606
+# 7 de mayo del 2021
 # Reflexion: Este proyect me ayudó mucho a refrescar conocimiento que tuve alguna vez en python en semestres anteriores, y sobretodo a entender el funcionamiento de este programa y de la librería de free games. Estoy seguro que será algo que me ayudará mucho en un futuro a implementar juegos en python y a hacer programas de mucho mejor calidad dentro de python para ser un mejor programador y un mejor ITC a lo largo de mi carrera. Siento que esta semana tec me ha ayudado mucho, sobretodo ahorita que estamos justamente viendo una materia relacionada a videojuegos a entender como las funciones se repiten como fotogramas ante cada acción del usuario, así como conocer cómo se reciben inputs y como se leen dichos inputs.
 # Link github: https://github.com/rubenroblesl/memorama
 # Link Video Reflexion: https://drive.google.com/file/d/1pv5fKVJUxU5Q99CzhNTtsgXtLVBi3S3S/view?usp=sharing
